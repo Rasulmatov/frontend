@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --Playfair: 'Playfair Display', serif;
+    --Quicksand: 'Quicksand', sans-serif;
+    --Roboto: 'Roboto', seans-serf;
+    --dark: #3c393d;
+    --exDark: #2b2b2b
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--Quicksand);
+
+}
+
+body{
+    line-height: 1.4;
+    color: var(--dark);
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.contaner{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+
+}
+/*Header Style */
+
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/home11.jpg") center/cover no-repeat;
+
+}
+
+.navbar{
+    background: rgba(0,0,0,0.6);
+    padding: 1.2rem;
+
+}
+
+.navigation{
+    display:flex;
+
+}
